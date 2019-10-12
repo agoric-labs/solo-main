@@ -1,10 +1,8 @@
 {
-  "name": "@agoric/@PACKAGE@",
-  "version": "0.0.1",
-  "description": "???",
-  "main": "dist/@PACKAGE@.cjs.js",
-  "module": "dist/@PACKAGE@.esm.js",
-  "browser": "dist/@PACKAGE@.umd.js",
+  "name": "@agoric/solo-main",
+  "version": "0.1.0",
+  "description": "Agoric solo vat machine base implementation",
+  "main": "lib/main.js",
   "scripts": {
     "test": "tape -r esm 'test/**/*.js'",
     "lint-fix": "eslint --fix '**/*.{js,jsx}'",
@@ -33,12 +31,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Agoric/@REPO@"
+    "url": "git+https://github.com/Agoric/solo"
   },
   "author": "Agoric",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Agoric/@REPO@/issues"
+    "url": "https://github.com/Agoric/solo/issues"
   },
-  "homepage": "https://github.com/Agoric/@REPO@#readme"
+  "homepage": "https://github.com/Agoric/solo#readme"
 }
