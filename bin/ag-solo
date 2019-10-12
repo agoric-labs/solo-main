@@ -2,14 +2,14 @@
 
 const process = require('process');
 require = require('esm')(module);
-const solo = require('../lib/main.js').default;
+const main = require('../lib/main.js').default;
 
-solo(process.argv[1], process.argv.splice(2)).then(
+main(process.argv[1], process.argv.splice(2)).then(
   _res => 0,
   rej => {
     console.log(`error running ag-solo:`, rej);
     console.error(`\
-Maybe a connection is broken and you need to rerun ag-setup-solo?`);
+Maybe a connection has failed and you need to rerun ag-setup-solo?`);
     process.exit(1);
   },
 );
