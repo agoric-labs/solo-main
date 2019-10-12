@@ -1,6 +1,6 @@
 {
   "name": "@agoric/solo-main",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Agoric solo vat machine base implementation",
   "main": "lib/main.js",
   "scripts": {
