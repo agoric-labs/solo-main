@@ -75,3 +75,5 @@ integration-test/transform-tests/output
 
 # generated Sphinx/ReadTheDocs files 
 /docs/build/
+
+/vms

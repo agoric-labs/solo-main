@@ -23,8 +23,12 @@
     "tape-promise": "^4.0.0"
   },
   "dependencies": {
-    "esm": "^3.2.5",
-    "minimist": "^1.2.0"
+    "@agoric/ertp": "^0.1.5",
+    "@agoric/evaluate": "^2.1.2",
+    "@agoric/harden": "0.0.4",
+    "esm": "^3.2.25",
+    "minimist": "^1.2.0",
+    "temp": "^0.9.0"
   },
   "keywords": [],
   "files": [
